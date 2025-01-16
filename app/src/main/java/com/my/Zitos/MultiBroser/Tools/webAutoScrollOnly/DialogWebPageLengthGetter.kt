@@ -212,7 +212,8 @@ fun DialogWebPageLengthGetter(
 
     BasicAlertDialog(properties = DialogProperties(usePlatformDefaultWidth = false),
         onDismissRequest = {  },
-        modifier = Modifier.padding(start = 10.dp, end = 10.dp )) {
+        modifier = Modifier.padding(start = 10.dp, end = 10.dp )
+    ) {
 
         Column(modifier = Modifier
             .fillMaxSize()

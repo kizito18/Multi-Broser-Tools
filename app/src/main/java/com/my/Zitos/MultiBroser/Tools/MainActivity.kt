@@ -687,7 +687,7 @@ class MainActivity : ComponentActivity(), MaxAdViewAdListener {
                                         tint = Color.Black
                                     )
 
-                                    Text(text = "Share")
+                                    Text(text = "Rate us")
                                 }
 
 

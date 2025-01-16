@@ -1,5 +1,6 @@
 package com.my.Zitos.MultiBroser.Tools
 
+
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
@@ -17,7 +18,6 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -536,12 +536,13 @@ class NormalActivity : ComponentActivity() {
 
                 val padding2 = padding
 
-                BoxWithConstraints(
+               // BoxWithConstraints(
+                Box(
                     modifier = Modifier
                         .fillMaxSize()
                 ) {
 
-                    boxConstraints = constraints
+                   // boxConstraints = constraints
 
 
 
